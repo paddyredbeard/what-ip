@@ -5,7 +5,7 @@ A serverless implementation that returns the client's apparent/extern IP address
 ## Installation & Deployment
 
 Prereqs:  
-Worknig installation of the [serverless framework](https://www.serverless.com/framework/docs/getting-started) and AWS account.
+Working installation of the [serverless framework](https://www.serverless.com/framework/docs/getting-started) and AWS account.
 
 1. Clone this repo & cd into local working dir
 2. `$ npm install`
