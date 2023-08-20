@@ -7,11 +7,17 @@ provider:
   region: us-west-2
 
 functions:
-  api:
-    handler: index.handler
+  json:
+    handler: handler.index
     events:
       - httpApi:
           path: /
+          method: get
+  plaintext:
+    handler: handler.plain
+    events:
+      - httpApi:
+          path: /plain
           method: get
 
 plugins:
