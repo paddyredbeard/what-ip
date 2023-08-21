@@ -13,7 +13,7 @@ Working installation of the [serverless framework](https://www.serverless.com/fr
 
 ## Routes
 
-`GET /` returns plaintext payload:  
+`GET /ip` returns plaintext payload:  
 
 ```
 127.0.0.1

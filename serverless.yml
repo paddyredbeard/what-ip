@@ -17,7 +17,7 @@ functions:
     handler: handler.plain
     events:
       - httpApi:
-          path: /
+          path: /ip
           method: get
 
 plugins:
