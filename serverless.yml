@@ -8,16 +8,16 @@ provider:
 
 functions:
   json:
-    handler: handler.index
+    handler: handler.json
     events:
       - httpApi:
-          path: /
+          path: /ip.json
           method: get
   plaintext:
     handler: handler.plain
     events:
       - httpApi:
-          path: /plain
+          path: /
           method: get
 
 plugins:

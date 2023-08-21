@@ -1,6 +1,6 @@
 'use-strict'
 
-module.exports.index = async (event) => {
+module.exports.json = async (event) => {
   return {
     statusCode: 200,
     headers: {
