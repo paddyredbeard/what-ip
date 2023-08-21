@@ -13,13 +13,13 @@ Working installation of the [serverless framework](https://www.serverless.com/fr
 
 ## Routes
 
-`/` returns plaintext payload:  
+`GET /` returns plaintext payload:  
 
 ```
 127.0.0.1
 ```
 
-`/ip.json` returns JSON payload:  
+`GET /ip.json` returns JSON payload:  
 
 ```json
 {
