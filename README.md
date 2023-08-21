@@ -13,17 +13,17 @@ Working installation of the [serverless framework](https://www.serverless.com/fr
 
 ## Routes
 
-`/` returns JSON payload:  
+`/` returns plaintext payload:  
+
+```
+127.0.0.1
+```
+
+`/ip.json` returns JSON payload:  
 
 ```json
 {
   "ip": "127.0.0.1",
   "utc": "2023-08-20T00:55:18.862Z"
 }
-```
-
-`/plain` returns plaintext payload:  
-
-```
-127.0.0.1
 ```
