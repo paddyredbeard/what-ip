@@ -5,19 +5,25 @@ provider:
   name: aws
   runtime: nodejs18.x
   region: us-west-2
+  stage: dev
+  httpApi:
+    id: bmimljfxy3
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
 
 functions:
   json:
     handler: handler.json
     events:
       - httpApi:
-          path: /ip.json
+          path: /${self:custom.stage}/ip.json
           method: get
   plaintext:
     handler: handler.plain
     events:
       - httpApi:
-          path: /ip
+          path: /${self:custom.stage}/ip
           method: get
 
 plugins:
