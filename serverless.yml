@@ -1,3 +1,5 @@
+org: paddyredbeard
+app: what-ip
 service: what-ip
 frameworkVersion: '3'
 
