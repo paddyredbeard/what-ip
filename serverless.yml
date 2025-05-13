@@ -1,11 +1,11 @@
-org: paddyredbeard
-app: what-ip
+#org: paddyredbeard
+#app: what-ip
 service: what-ip
 frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs18.x
+  runtime: nodejs20.x
   region: us-west-2
 
 functions:
