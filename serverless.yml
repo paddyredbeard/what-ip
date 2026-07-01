@@ -22,5 +22,9 @@ functions:
           path: /ip
           method: get
 
+package:
+  exclude:
+    - node_modules/**
+
 plugins:
   - serverless-offline
