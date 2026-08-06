@@ -11,7 +11,7 @@ A working installation of the [serverless framework](https://www.serverless.com/
 ### Install & Deploy
 
 1. Clone this repo & cd into local working dir
-2. `$ npm install`
+2. `$ pnpm install`
 3. `$ serverless deploy` _or_ `$ serverless deploy --stage prod`
 
 ## Routes

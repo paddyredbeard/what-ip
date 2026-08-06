@@ -1,0 +1,7 @@
+{
+  "name": "node-domexception",
+  "version": "1.0.0",
+  "description": "Local stub replacing the deprecated node-domexception package; Node 18+ ships a native DOMException.",
+  "main": "index.js",
+  "license": "ISC"
+}
