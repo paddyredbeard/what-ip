@@ -6,3 +6,4 @@ overrides:
   cron-parser: ^5.7.0
   glob: ^11.0.1
   node-domexception: file:.stubs/node-domexception
+  undici: ^6.28.0
