@@ -4,6 +4,7 @@ allowBuilds:
 overrides:
   velocityjs: ^2.1.7
   cron-parser: ^5.7.0
-  glob: ^11.0.1
+  glob: 14.0.2
+  minimatch: 11.0.1
   node-domexception: file:.stubs/node-domexception
   undici: ^6.28.1
