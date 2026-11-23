@@ -19,6 +19,6 @@
   "devDependencies": {
     "eslint": "^10.15.0",
     "neostandard": "^0.14.1",
-    "serverless-offline": "^14.8.4"
+    "serverless-offline": "^14.8.5"
   }
 }
